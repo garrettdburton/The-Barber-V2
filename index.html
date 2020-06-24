@@ -26,6 +26,11 @@
         <link rel="stylesheet" href="css/flaticon.css">
         <link rel="stylesheet" href="css/icomoon.css">
         <link rel="stylesheet" href="css/style.css">
+        <style>
+            .text-red{
+            color: red;
+            }
+        </style>
     </head>
     <body>
 
@@ -53,8 +58,8 @@
             <div class="overlay"></div>
             <div class="container">
                 <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-start" data-scrollax-parent="true">
-                    <a href="" class="icon popup-vimeo d-flex justify-content-center align-items-center">
-                        <span class="icon-play"></span></a>
+                    <!--<a href="" class="icon popup-vimeo d-flex justify-content-center align-items-center">
+                        <span class="icon-play"></span></a>-->
 
                     <div class="col-md-6 ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
                         <h1 class="mb-5" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">The Barber at BMG</h1>
@@ -85,8 +90,17 @@
                             <div class="col-md-4 d-flex ftco-animate">
                                 <div class="icon"><span class="icon-clock-o"></span></div>
                                 <div class="text">
-                                    <h3>Open Monday-Friday</h3>
-                                    <p>8:00am - 9:00pm</p>
+                                    <h3>Open:<br></h3>
+                                        
+                                    <h3 class="text-red">Appointments Only Due to Covid-19</h3> 
+                                    <br><h3>Tuesday-Wednesday</h3>
+                                    <p>11:00am - 5:00pm</p>
+                                    <br><h3>Thursday-Friday</h3>
+                                    <p>10:00am - 7:00pm</p>
+                                    <br><h3>Saturday</h3>
+                                    <p>10:00am - 5:00pm</p>
+                                    <br><h3>Sunday &amp; Monday</h3>
+                                    <p>Closed</p>
                                 </div>
                             </div>
                         </div>
@@ -124,47 +138,39 @@
                     <div class="col-md-7 heading-section ftco-animate text-center">
                         <h2 class="mb-4">Our Services</h2>
                         <p class="flip"><span class="deg1"></span><span class="deg2"></span><span class="deg3"></span></p>
-                        <p class="mt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel risus a eros consequat eleifend. Etiam bibendum sed dui id sagittis. Suspendisse at posuere sem. Sed eleifend enim vel ante interdum feugiat quis vestibulum erat. </p>
+                        <!--<p class="mt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel risus a eros consequat eleifend. Etiam bibendum sed dui id sagittis. Suspendisse at posuere sem. Sed eleifend enim vel ante interdum feugiat quis vestibulum erat. </p> -->
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-3 ftco-animate">
+                    <div class="col-md-4 ftco-animate">
                         <div class="media d-block text-center block-6 services">
                             <div class="icon d-flex justify-content-center align-items-center mb-4">
                                 <span class="flaticon-scissor-and-comb"></span>
                             </div>
                             <div class="media-body">
                                 <h3 class="heading">Haircuts &amp; Styling</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel risus a eros consequat eleifend. Etiam bibendum sed dui id sagittis. Suspendisse at posuere sem.</p>
+                                
                             </div>
                         </div>      
                     </div>
-                    <div class="col-md-3 ftco-animate">
+                    <div class="col-md-4 ftco-animate">
                         <div class="media d-block text-center block-6 services">
                             <div class="icon d-flex justify-content-center align-items-center mb-4">
                                 <span class="flaticon-male-head-hair-and-beard"></span>
                             </div>
                             <div class="media-body">
                                 <h3 class="heading">Beard Treatment</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel risus a eros consequat eleifend. Etiam bibendum sed dui id sagittis. Suspendisse at posuere sem.</p>
+                              
                             </div>
                         </div>      
                     </div>
-                    <div class="col-md-3 ftco-animate">
-                        <div class="media d-block text-center block-6 services">
-                            <div class="icon d-flex justify-content-center align-items-center mb-4"><span class="flaticon-heads-hairs-and-scissors"></span></div>
-                            <div class="media-body">
-                                <h3 class="heading">Coloring Services</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel risus a eros consequat eleifend. Etiam bibendum sed dui id sagittis. Suspendisse at posuere sem.</p>
-                            </div>
-                        </div>    
-                    </div>
-                    <div class="col-md-3 ftco-animate">
+                    
+                    <div class="col-md-4 ftco-animate">
                         <div class="media d-block text-center block-6 services">
                             <div class="icon d-flex justify-content-center align-items-center mb-4"><span class="flaticon-young-male-short-irregular-hair-on-head-and-a-small-beard"></span></div>
                             <div class="media-body">
                                 <h3 class="heading">Beard Waxing</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel risus a eros consequat eleifend. Etiam bibendum sed dui id sagittis. Suspendisse at posuere sem.</p>
+                               
                             </div>
                         </div>    
                     </div>
@@ -173,7 +179,7 @@
         </section>
 
         <section class="ftco-section">
-            <div class="container">
+           <!-- <div class="container">
                 <div class="row justify-content-center mb-5 pb-3">
                     <div class="col-md-7 heading-section ftco-animate text-center">
                         <h2 class="mb-4">What We Do</h2>
@@ -181,9 +187,9 @@
                         <p class="mt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel risus a eros consequat eleifend. Etiam bibendum sed dui id sagittis. Suspendisse at posuere sem.</p>
                     </div>
                 </div>
-            </div>
+            </div>-->
             <div class="container-wrap">
-                <div class="row no-gutters d-flex">
+             <!--   <div class="row no-gutters d-flex">
                     <div class="col-md-4 d-flex ftco-animate">
                         <div class="services-wrap d-flex">
                             <a href="#" class="img" style="background-image: url(images/work-hairstyle.jpeg);"></a>
@@ -194,7 +200,7 @@
                             </div>
                         </div>
                     </div>
-                    <!--<div class="col-md-4 d-flex ftco-animate">
+                    <div class="col-md-4 d-flex ftco-animate">
                         <div class="services-wrap d-flex">
                             <a href="#" class="img" style="background-image: url(images/work-2.jpg);"></a>
                             <div class="text p-4">
@@ -203,7 +209,7 @@
                                 <span><a href="#">See more</a></span>
                             </div>
                         </div>
-                    </div>-->
+                    </div>
                     <div class="col-md-4 d-flex ftco-animate">
                         <div class="services-wrap d-flex">
                             <a href="#" class="img" style="background-image: url(images/gallery_1.jpeg);"></a>
@@ -215,7 +221,7 @@
                         </div>
                     </div>
 
-                  <!--  <div class="col-md-4 d-flex ftco-animate">
+                    <div class="col-md-4 d-flex ftco-animate">
                         <div class="services-wrap d-flex">
                             <a href="#" class="img order-md-last" style="background-image: url(images/work-trim.jpeg);"></a>
                             <div class="text p-4">
@@ -224,7 +230,7 @@
                                 <span><a href="#">See more</a></span>
                             </div>
                         </div>
-                    </div> -->
+                    </div>
                     <div class="col-md-4 d-flex ftco-animate">
                         <div class="services-wrap d-flex">
                             <a href="#" class="img order-md-last" style="background-image: url(images/work-kids.jpeg);"></a>
@@ -235,7 +241,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div>-->
             </div>
 
             <div class="container">
@@ -243,7 +249,7 @@
                     <div class="col-md-7 heading-section text-center ftco-animate">
                         <h2 class="mb-4">Plan &amp; Pricing</h2>
                         <p class="flip"><span class="deg1"></span><span class="deg2"></span><span class="deg3"></span></p>
-                        <p class="mt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel risus a eros consequat eleifend. Etiam bibendum sed dui id sagittis. Suspendisse at posuere sem.</p>
+                        <!--<p class="mt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel risus a eros consequat eleifend. Etiam bibendum sed dui id sagittis. Suspendisse at posuere sem.</p>-->
                     </div>
                 </div>
                 <div class="row">
@@ -253,36 +259,28 @@
                                 <h3><span>Men's Haircut &amp; Shave</span></h3>
                                 <span class="price">$40.00</span>
                             </div>
-                            <div class="d-block">
-                                <p>Lorem ipsum dolor sit amet</p>
-                            </div>
+                           
                         </div>
                         <div class="pricing-entry ftco-animate">
                             <div class="d-flex text align-items-center">
                                 <h3><span>Men's Haircut &amp; Beard Trim</span></h3>
                                 <span class="price">$35.00</span>
                             </div>
-                            <div class="d-block">
-                                <p>Lorem ipsum dolor sit amet</p>
-                            </div>
+                           
                         </div>
                         <div class="pricing-entry ftco-animate">
                             <div class="d-flex text align-items-center">
                                 <h3><span>Men's Haircut</span></h3>
                                 <span class="price">$25.00</span>
                             </div>
-                            <div class="d-block">
-                                <p>Lorem ipsum dolor sit amet</p>
-                            </div>
+                           
                         </div>
                         <div class="pricing-entry ftco-animate">
                             <div class="d-flex text align-items-center">
                                 <h3><span>Men's Shave &amp; Beard Trim</span></h3>
                                 <span class="price">$20.00</span>
                             </div>
-                            <div class="d-block">
-                                <p>Lorem ipsum dolor sit amet</p>
-                            </div>
+                           
                         </div>
                         
                     </div>
@@ -293,36 +291,28 @@
                                 <h3><span>Women's Haircut</span></h3>
                                 <span class="price">$40.00</span>
                             </div>
-                            <div class="d-block">
-                                <p>Lorem ipsum dolor sit amet</p>
-                            </div>
+                            
                         </div>
                         <div class="pricing-entry ftco-animate">
                             <div class="d-flex text align-items-center">
                                 <h3><span>Kid's Haircut</span></h3>
                                 <span class="price">$20.00</span>
                             </div>
-                            <div class="d-block">
-                                <p>Lorem ipsum dolor sit amet</p>
-                            </div>
+                            
                         </div>
                         <div class="pricing-entry ftco-animate">
                             <div class="d-flex text align-items-center">
                                 <h3><span>Senior (65+) Haircut</span></h3>
                                 <span class="price">$15.00</span>
                             </div>
-                            <div class="d-block">
-                                <p>Lorem ipsum dolor sit amet</p>
-                            </div>
+                            
                         </div>
                         <div class="pricing-entry ftco-animate">
                             <div class="d-flex text align-items-center">
                                 <h3><span>Beard Trim</span></h3>
                                 <span class="price">$15.00</span>
                             </div>
-                            <div class="d-block">
-                                <p>Lorem ipsum dolor sit amet</p>
-                            </div>
+                           
                         </div>
                     </div>
                 </div>
@@ -330,7 +320,7 @@
                      <div class="col-md-7 mx-auto heading-section text-center ftco-animate">
                         <h2 class="mb-4">Premium &amp; Packages</h2>
                         <p class="flip"><span class="deg1"></span><span class="deg2"></span><span class="deg3"></span></p>
-                        <p class="mt-5">Unimted Monthly Services</p>
+                        <p class="mt-5">Unlimted Monthly Services</p>
                     </div>
                     <div class="col-md-6 mx-auto">
                          
@@ -339,27 +329,21 @@
                                 <h3><span>Haircuts, Beard Trims, Shaves</span></h3>
                                 <span class="price">$100.00</span>
                             </div>
-                            <div class="d-block">
-                                <p>Lorem ipsum dolor sit amet</p>
-                            </div>
+                            
                         </div>
                         <div class="pricing-entry ftco-animate">
                             <div class="d-flex text align-items-center">
                                 <h3><span>Men's Haircut &amp; Beard Trim</span></h3>
                                 <span class="price">$75.00</span>
                             </div>
-                            <div class="d-block">
-                                <p>Lorem ipsum dolor sit amet</p>
-                            </div>
+                           
                         </div>
                         <div class="pricing-entry ftco-animate">
                             <div class="d-flex text align-items-center">
                                 <h3><span>Haircuts</span></h3>
                                 <span class="price">$50.00</span>
                             </div>
-                            <div class="d-block">
-                                <p>Lorem ipsum dolor sit amet</p>
-                            </div>
+                           
                         </div>
                        
                         <div class="pricing-entry ftco-animate">
@@ -367,9 +351,7 @@
                                 <h3><span>Men's Shave &amp; Beard Trim</span></h3>
                                 <span class="price">$20.00</span>
                             </div>
-                            <div class="d-block">
-                                <p>Lorem ipsum dolor sit amet</p>
-                            </div>
+                            
                         </div>
                         
                     </div>
@@ -385,12 +367,12 @@
                         <h3>First Responder or Student? Save with The Barber at BMG</h3>
                         <h2 class="mb-4">15% discount on all services for police, firemen, and students</h2>
                        
-                        <p><a href="#" class="btn btn-primary px-4 py-3">Appointment</a></p>
+                        <p><a href="https://squareup.com/appointments/book/633067d8-1cf4-4fc3-8a24-6671b8107306/B9ZFETEYQHAP9/services" class="btn btn-primary px-4 py-3">Appointment</a></p>
                     </div>
                 </div>
             </div>
         </section>
-
+<!--
         <section class="ftco-section">
             <div class="container">
                 <div class="row justify-content-center mb-5 pb-3">
@@ -474,14 +456,14 @@
                 </div>
             </div>
         </section>
-
+-->
         <section class="ftco-gallery">
             <div class="container">
                 <div class="row justify-content-center mb-5 pb-3">
                     <div class="col-md-7 heading-section ftco-animate text-center">
                         <h2 class="mb-4">Gallery</h2>
                         <p class="flip"><span class="deg1"></span><span class="deg2"></span><span class="deg3"></span></p>
-                        <p class="mt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel risus a eros consequat eleifend. Etiam bibendum sed dui id sagittis. Suspendisse at posuere sem.</p>
+                       <!-- <p class="mt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel risus a eros consequat eleifend. Etiam bibendum sed dui id sagittis. Suspendisse at posuere sem.</p>-->
                     </div>
                 </div>
             </div>
@@ -519,7 +501,7 @@
             </div>
         </section>
 
-
+<!--
         <section class="ftco-appointment">
             <div class="overlay"></div>
             <div class="container-wrap">
@@ -566,15 +548,15 @@
                 </div>
             </div>
         </section>
-
+-->
         <footer class="ftco-footer ftco-section img">
             <div class="overlay"></div>
             <div class="container">
                 <div class="row mb-5">
-                    <div class="col-md-3">
+                    <div class="col-md-4">
                         <div class="ftco-footer-widget mb-4">
                             <h2 class="ftco-heading-2">About</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel risus a eros consequat eleifend. Etiam bibendum sed dui id sagittis. Suspendisse at posuere sem. </p>
+                            <p>The Barber at BMG is a full service barber shop located at the Monroe County Airport. Owned and operated by Kristine Roccia.</p>
                             <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
                                 <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
                                 <li class="ftco-animate"><a href="https://www.facebook.com/krbarberchair"><span class="icon-facebook"></span></a></li>
@@ -583,26 +565,18 @@
                         </div>
                     </div>
 
-                    <div class="col-md-2">
+                    <div class="col-md-4">
                         <div class="ftco-footer-widget mb-4 ml-md-4">
-                            <h2 class="ftco-heading-2">Services</h2>
-                            <ul class="list-unstyled">
-                                <li><a href="#" class="py-2 d-block">Haircut</a></li>
-                                <li><a href="#" class="py-2 d-block">Hairstyle</a></li>
-                                <li><a href="#" class="py-2 d-block">Trimming</a></li>
-                                <li><a href="#" class="py-2 d-block">Shaving</a></li>
-                                <li><a href="#" class="py-2 d-block">Skin Care</a></li>
-                            </ul>
+                            <h2 class="ftco-heading-2"><a href="https://squareup.com/appointments/book/633067d8-1cf4-4fc3-8a24-6671b8107306/B9ZFETEYQHAP9/services">Schedule An Appointment</a></h2>   
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-4">
                         <div class="ftco-footer-widget mb-4">
                             <h2 class="ftco-heading-2">Have a Questions?</h2>
                             <div class="block-23 mb-3">
                                 <ul>
                                     <li><span class="icon icon-map-marker"></span><span class="text">972 S. Kirby Rd. Bloomington, Indiana</span></li>
                                     <li><a href="#"><span class="icon icon-phone"></span><span class="text">812-371-3380</span></a></li>
-                                    <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@yourdomain.com</span></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -612,7 +586,7 @@
                     <div class="col-md-12 text-center">
 
                         <p>
-                            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved Unshifted Bit Development</p>
+                            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved <a href="http://www.unshiftedbitdev.com">Unshifted Bit Development</a></p>
                     </div>
                 </div>
             </div>
