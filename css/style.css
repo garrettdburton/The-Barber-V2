@@ -8031,10 +8031,10 @@ h1, h2, h3, h4, h5,
       background-position: center center !important; } }
   .ftco-discount .overlay {
     position: absolute;
-    top: 0;
+    top: 10;
     left: 0;
     right: 0;
-    bottom: 0;
+    bottom: 10;
     background: #000;
     opacity: .3; }
 
