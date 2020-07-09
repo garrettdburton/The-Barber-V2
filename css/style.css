@@ -8026,7 +8026,7 @@ h1, h2, h3, h4, h5,
 
 .ftco-discount {
   position: relative; }
-  @media (max-width: 1199.98px) {
+  @media (max-width: 1800px) {
     .ftco-discount {
       background-position: center center !important; } }
   .ftco-discount .overlay {
